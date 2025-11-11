@@ -68,7 +68,7 @@ function App() {
         </div>
       </div>
 
-      <div className="sidebar" id="sidebar">
+      <div className="sidebar collapsed" id="sidebar">
 
         <div className='sidebar-content'> 
           <div className="nav-section">
@@ -149,7 +149,7 @@ function App() {
         {/* --- END NEW USER PROFILE FOOTER --- */}
       </div>
 
-      <div className="main-wrapper" id="mainWrapper">
+      <div className="main-wrapper expanded" id="mainWrapper">
         <div className="breadcrumb">
           <div className="breadcrumb-item">
             <span className="breadcrumb-link">Home</span>
