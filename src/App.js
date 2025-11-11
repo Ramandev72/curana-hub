@@ -2,14 +2,13 @@ import React from 'react';
 import './App.css';
 
 import {
-  FaBars, FaSearch, FaBell, FaMoon, FaHome, FaBox,
+  FaBars, FaSearch, FaBell, FaMoon, FaHome,
   FaBuilding, FaUsers, FaHospital, FaClipboardList,
   FaInfoCircle, FaNewspaper, FaBalanceScale, FaQuestionCircle,
   FaTrophy
 } from 'react-icons/fa';
 import { FaClipboardUser } from "react-icons/fa6";
 import { RiStarSmileFill } from "react-icons/ri";
-import { MdOutlineMedicalServices } from 'react-icons/md';
 import { LuPackageOpen, LuDollarSign } from 'react-icons/lu';
 import { SlCalender } from "react-icons/sl";
 import { MdOutlinePendingActions, MdModelTraining, MdPolicy, MdCelebration } from "react-icons/md";
@@ -201,7 +200,7 @@ function App() {
         <div className="application-section">
           <div className="section-header">
             <h2 className="section-title">My Applications</h2>
-            <a href="#" className="section-action">Customize ⚙️</a>
+            <a href="/" className="section-action">Customize ⚙️</a>
           </div>
           <div className="app-grid">
             <div className="app-tile">
@@ -252,7 +251,7 @@ function App() {
             <div className="section">
               <div className="section-header">
                 <h2 className="section-title">My Workspace</h2>
-                <a href="#" className="section-action">View All</a>
+                <a href="/" className="section-action">View All</a>
               </div>
               <div className="workspace-item">
                 <div className="workspace-icon" style={{ background: '#e6e6f9', color: 'var(--curana-blue)' }}><SlCalender /> </div>
@@ -315,7 +314,7 @@ function App() {
         <div className="section">
           <div className="section-header">
             <h2 className="section-title">Latest News & Announcements</h2>
-            <a href="#" className="section-action">View All</a>
+            <a href="/" className="section-action">View All</a>
           </div>
           <div className="news-item">
             <div className="news-thumbnail"><FaTrophy fill='#862C8F' /></div>
